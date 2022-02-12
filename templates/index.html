@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <title>Travel Chatbot</title>
+  <head>
+    <link href="/static/style.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <img />
+    <center>
+      <h1>
+        Travel chatbot assistant
+      </h1>
+    </center>
+    <div class="box"></div>
+    <div class="boxed">
+      <div>
+        <div id="chatbox">
+          
+          <div class="talk-bubble tri-right round left-in">
+            <div class="talktext">
+              <p>
+              Hi, I'm a traveling chatbot assistant and I can help you find lowest cost flight tickets and hotels. 
+              Can I do something for you?
+              </p>
+            </div>
+          </div>
+
+        </div>
+        <div id="userInput">
+          <input id="userMessage" type="text" name="msg" placeholder="Type your questions.." />
+        </div>
+      </div>
+      <script>
+        $("#userMessage").keypress(function(e) {
+          if (e.which == 13) {
+            getBotResponse();
+          }
+        });
+
+        function getBotResponse() {
+          var rawText = $("#userMessage").val();
+          var userHtml = `<div class="talk-bubble tri-right round right-in">
+                            <div class="talktext">
+                              <p>
+                                ${rawText}
+                             </p>
+                          </div>
+                        </div>`;
+
+          $("#userMessage").val("");
+          $("#chatbox").append(userHtml);
+          document.getElementById("userInput").scrollIntoView({ block: "start", behavior: "smooth" });
+
+          $.get("/get", { msg: rawText }).done(function(data) {
+            var botResponse = `<div class="talk-bubble tri-right round left-in">
+                                 <div class="talktext">
+                                  <p>
+                                    ${data}
+                                  </p>
+                                </div>
+                              </div>`;
+            $("#chatbox").append(botResponse);
+            document.getElementById("userInput").scrollIntoView({ block: "start", behavior: "smooth" });
+          });
+        }
+      </script>
+    </div>
+  </body>
+</html>

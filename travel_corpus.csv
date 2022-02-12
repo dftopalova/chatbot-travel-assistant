@@ -1,0 +1,228 @@
+response,text,label
+"['Hello, how can I help you?', 'Good to see you again', 'Hi there, how can I help?']",Hi there,greeting
+"['Hello, how can I help you?', 'Good to see you again', 'Hi there, how can I help?']",hi there,greeting
+"['Hello, how can I help you?', 'Good to see you again', 'Hi there, how can I help?']",Hello?,greeting
+"['Hello, how can I help you?', 'Good to see you again', 'Hi there, how can I help?']",hi can you help me?,greeting
+"['Hello, how can I help you?', 'Good to see you again', 'Hi there, how can I help?']",hey again,greeting
+"['Hello, how can I help you?', 'Good to see you again', 'Hi there, how can I help?']",hey man,greeting
+"['Hello, how can I help you?', 'Good to see you again', 'Hi there, how can I help?']",hey there,greeting
+"['Hello, how can I help you?', 'Good to see you again', 'Hi there, how can I help?']",hello? anyone?,greeting
+"['Hello, how can I help you?', 'Good to see you again', 'Hi there, how can I help?']",hi again,greeting
+"['Hello, how can I help you?', 'Good to see you again', 'Hi there, how can I help?']",hello ,greeting
+"['Hello, how can I help you?', 'Good to see you again', 'Hi there, how can I help?']",hi hi,greeting
+"['Hello, how can I help you?', 'Good to see you again', 'Hi there, how can I help?']",How are you?,greeting
+"['Hello, how can I help you?', 'Good to see you again', 'Hi there, how can I help?']","hello, are you there?",greeting
+"['Hello, how can I help you?', 'Good to see you again', 'Hi there, how can I help?']","hi there, can you help me?",greeting
+"['Hello, how can I help you?', 'Good to see you again', 'Hi there, how can I help?']","hello, good day",greeting
+"['Hello, how can I help you?', 'Good to see you again', 'Hi there, how can I help?']",Is anyone there?,greeting
+"['Hello, how can I help you?', 'Good to see you again', 'Hi there, how can I help?']",Hello,greeting
+"['Hello, how can I help you?', 'Good to see you again', 'Hi there, how can I help?']",hello,greeting
+"['Hello, how can I help you?', 'Good to see you again', 'Hi there, how can I help?']",Good day,greeting
+"['Hello, how can I help you?', 'Good to see you again', 'Hi there, how can I help?']",hi fam,greeting
+"['Hello, how can I help you?', 'Good to see you again', 'Hi there, how can I help?']",Hey,greeting
+"['Hello, how can I help you?', 'Good to see you again', 'Hi there, how can I help?']",Good morning,greeting
+"['Hello, how can I help you?', 'Good to see you again', 'Hi there, how can I help?']",Good afternoon,greeting
+"['Hello, how can I help you?', 'Good to see you again', 'Hi there, how can I help?']",good evening,greeting
+"['Hello, how can I help you?', 'Good to see you again', 'Hi there, how can I help?']",yo,greeting
+"['Hello, how can I help you?', 'Good to see you again', 'Hi there, how can I help?']",You there?,greeting
+"['Hello, how can I help you?', 'Good to see you again', 'Hi there, how can I help?']",Hey there,greeting
+"['Hello, how can I help you?', 'Good to see you again', 'Hi there, how can I help?']",hey bot,greeting
+"['Hello, how can I help you?', 'Good to see you again', 'Hi there, how can I help?']",hey dude,greeting
+"['Hello, how can I help you?', 'Good to see you again', 'Hi there, how can I help?']",yo dude,greeting
+"['Hello, how can I help you?', 'Good to see you again', 'Hi there, how can I help?']",yo man,greeting
+"['Hello, how can I help you?', 'Good to see you again', 'Hi there, how can I help?']",Hey man,greeting
+"['Hello, how can I help you?', 'Good to see you again', 'Hi there, how can I help?']",Are you there?,greeting
+"['Hello, how can I help you?', 'Good to see you again', 'Hi there, how can I help?']",heyaa,greeting
+"['See you!', 'Have a nice day', 'Bye! Come back again soon.']",Bye,goodbye
+"['See you!', 'Have a nice day', 'Bye! Come back again soon.']",See you later,goodbye
+"['See you!', 'Have a nice day', 'Bye! Come back again soon.']",bye bye,goodbye
+"['See you!', 'Have a nice day', 'Bye! Come back again soon.']",later,goodbye
+"['See you!', 'Have a nice day', 'Bye! Come back again soon.']",I will see you later,goodbye
+"['See you!', 'Have a nice day', 'Bye! Come back again soon.']",see you later then,goodbye
+"['See you!', 'Have a nice day', 'Bye! Come back again soon.']",Goodbye,goodbye
+"['See you!', 'Have a nice day', 'Bye! Come back again soon.']","Nice chatting to you, bye",goodbye
+"['See you!', 'Have a nice day', 'Bye! Come back again soon.']",Till next time,goodbye
+"['See you!', 'Have a nice day', 'Bye! Come back again soon.']",Later,goodbye
+"['See you!', 'Have a nice day', 'Bye! Come back again soon.']",Ciao,goodbye
+"['See you!', 'Have a nice day', 'Bye! Come back again soon.']",See you,goodbye
+"['See you!', 'Have a nice day', 'Bye! Come back again soon.']",Bye bye,goodbye
+"['See you!', 'Have a nice day', 'Bye! Come back again soon.']",Farewell,goodbye
+"['See you!', 'Have a nice day', 'Bye! Come back again soon.']",Good talk,goodbye
+"['See you!', 'Have a nice day', 'Bye! Come back again soon.']",Good chat,goodbye
+"['See you!', 'Have a nice day', 'Bye! Come back again soon.']",Peace out,goodbye
+"['See you!', 'Have a nice day', 'Bye! Come back again soon.']",talk to you later,goodbye
+"['See you!', 'Have a nice day', 'Bye! Come back again soon.']",ok bye,goodbye
+"['See you!', 'Have a nice day', 'Bye! Come back again soon.']","alright, see you later",goodbye
+"['See you!', 'Have a nice day', 'Bye! Come back again soon.']",Ok bye bye,goodbye
+"['See you!', 'Have a nice day', 'Bye! Come back again soon.']",Alright bye,goodbye
+"['See you!', 'Have a nice day', 'Bye! Come back again soon.']",bye botface,goodbye
+"['See you!', 'Have a nice day', 'Bye! Come back again soon.']",see you later bot,goodbye
+"['Happy to help!', 'Any time!', 'My pleasure', 'No problem!', 'Cheers']",Thanks,thanks
+"['Happy to help!', 'Any time!', 'My pleasure', 'No problem!', 'Cheers']",Thank you,thanks
+"['Happy to help!', 'Any time!', 'My pleasure', 'No problem!', 'Cheers']",thanks,thanks
+"['Happy to help!', 'Any time!', 'My pleasure', 'No problem!', 'Cheers']",many thanks,thanks
+"['Happy to help!', 'Any time!', 'My pleasure', 'No problem!', 'Cheers']",thank you again,thanks
+"['Happy to help!', 'Any time!', 'My pleasure', 'No problem!', 'Cheers']",thanks,thanks
+"['Happy to help!', 'Any time!', 'My pleasure', 'No problem!', 'Cheers']",thank you,thanks
+"['Happy to help!', 'Any time!', 'My pleasure', 'No problem!', 'Cheers']",That's helpful,thanks
+"['Happy to help!', 'Any time!', 'My pleasure', 'No problem!', 'Cheers']","Awesome, thanks",thanks
+"['Happy to help!', 'Any time!', 'My pleasure', 'No problem!', 'Cheers']",Thanks for helping me,thanks
+"['Happy to help!', 'Any time!', 'My pleasure', 'No problem!', 'Cheers']",Thanks a lot!,thanks
+"['Happy to help!', 'Any time!', 'My pleasure', 'No problem!', 'Cheers']",Thank you so much,thanks
+"['Happy to help!', 'Any time!', 'My pleasure', 'No problem!', 'Cheers']","I appreciate your help, thanks",thanks
+"['Happy to help!', 'Any time!', 'My pleasure', 'No problem!', 'Cheers']",Many thanks,thanks
+"['Happy to help!', 'Any time!', 'My pleasure', 'No problem!', 'Cheers']",Grateful for your help,thanks
+"['Happy to help!', 'Any time!', 'My pleasure', 'No problem!', 'Cheers']",Cool that's helpful,thanks
+"['Happy to help!', 'Any time!', 'My pleasure', 'No problem!', 'Cheers']",Much appreciated,thanks
+"['Happy to help!', 'Any time!', 'My pleasure', 'No problem!', 'Cheers']",I appreciate your help,thanks
+"['Happy to help!', 'Any time!', 'My pleasure', 'No problem!', 'Cheers']","Ok, thanks!",thanks
+"['Happy to help!', 'Any time!', 'My pleasure', 'No problem!', 'Cheers']","Alright, much appreciated",thanks
+"['Happy to help!', 'Any time!', 'My pleasure', 'No problem!', 'Cheers']","cool, thanks!",thanks
+"['Happy to help!', 'Any time!', 'My pleasure', 'No problem!', 'Cheers']",thank you very much!,thanks
+"['Happy to help!', 'Any time!', 'My pleasure', 'No problem!', 'Cheers']",Thanks!,thanks
+"['Happy to help!', 'Any time!', 'My pleasure', 'No problem!', 'Cheers']","That's really helpful, much appreciated",thanks
+"['Happy to help!', 'Any time!', 'My pleasure', 'No problem!', 'Cheers']","you are the best, thanks",thanks
+"['Happy to help!', 'Any time!', 'My pleasure', 'No problem!', 'Cheers']","Alright, thanks a lot",thanks
+"['I can provide you with flights and hotel information', 'I can help you look up information on flight and or hotels prices based on the date and location you provide to me']",How can help me?,options
+"['I can provide you with flights and hotel information', 'I can help you look up information on flight and or hotels prices based on the date and location you provide to me']",What you can do?,options
+"['I can provide you with flights and hotel information', 'I can help you look up information on flight and or hotels prices based on the date and location you provide to me']",What help do you provide?,options
+"['I can provide you with flights and hotel information', 'I can help you look up information on flight and or hotels prices based on the date and location you provide to me']",How you can be helpful?,options
+"['I can provide you with flights and hotel information', 'I can help you look up information on flight and or hotels prices based on the date and location you provide to me']",What support is offered?,options
+"['I can provide you with flights and hotel information', 'I can help you look up information on flight and or hotels prices based on the date and location you provide to me']",What are your services?,options
+"['I can provide you with flights and hotel information', 'I can help you look up information on flight and or hotels prices based on the date and location you provide to me']",Tell me stuff,options
+"['I can provide you with flights and hotel information', 'I can help you look up information on flight and or hotels prices based on the date and location you provide to me']",Why do you exist?,options
+"['I can provide you with flights and hotel information', 'I can help you look up information on flight and or hotels prices based on the date and location you provide to me']",What is your purpose?,options
+"['I can provide you with flights and hotel information', 'I can help you look up information on flight and or hotels prices based on the date and location you provide to me']","Help me, what can you do?",options
+"['I can provide you with flights and hotel information', 'I can help you look up information on flight and or hotels prices based on the date and location you provide to me']",How can you help me?,options
+"['I can provide you with flights and hotel information', 'I can help you look up information on flight and or hotels prices based on the date and location you provide to me']",What do you do?,options
+"['I can provide you with flights and hotel information', 'I can help you look up information on flight and or hotels prices based on the date and location you provide to me']",What is it that you do here?,options
+"['I can provide you with flights and hotel information', 'I can help you look up information on flight and or hotels prices based on the date and location you provide to me']",What is the meaning of your existence?,options
+"['I can provide you with flights and hotel information', 'I can help you look up information on flight and or hotels prices based on the date and location you provide to me']",What are the options?,options
+"['I can provide you with flights and hotel information', 'I can help you look up information on flight and or hotels prices based on the date and location you provide to me']",What are your top options?,options
+"['I can provide you with flights and hotel information', 'I can help you look up information on flight and or hotels prices based on the date and location you provide to me']",Show me what things you can do,options
+"['I can provide you with flights and hotel information', 'I can help you look up information on flight and or hotels prices based on the date and location you provide to me']","I'm curious what things you can do",options
+"['']",one way flight prices to Athens from Sofia,SearchFlight
+"['']",one-way flight to Santa Clara,SearchFlight
+"['']",one-way flight ticket from Berlin to Santa Clara,SearchFlight
+"['']",How much is a one-way ticket from Montreal to Tokyo if I leave on March 5 and return on March 10?,SearchFlight
+"['']",looking for one way ticket to taipei,SearchFlight
+"['']",how much is one way flight to Seoul?,SearchFlight
+"['']",what is the price of one way flight to taipei?,SearchFlight
+"['']",what is the price of a direct one-way flight to Detroit?,SearchFlight
+"['']",need one way flight to Paris,SearchFlight
+"['']",looking for direct one-way flight to london,SearchFlight
+"['']",What is the price of a one-way ticket from Dubai to Paris if I leave on May 24?,SearchFlight
+"['']",Tell me about one way flights from Frankfurt to London?,SearchFlight
+"['']",One way from London to Toronto?,SearchFlight
+"['']",Flight ticket from London to Toronto?,SearchFlight
+"['']",One way from Dubai to London,SearchFlight
+"['']",One way trip from Frankfurt to Paris?,SearchFlight
+"['']",Going to Shanghai,SearchFlight
+"['']","Going to Shanghai, looking to book a ticket from Tokyo",SearchFlight
+"['']",Want to go to Seoul,SearchFlight
+"['']",One way to Jakarta,SearchFlight
+"['']",One way to Hanoi from Hong Kong,SearchFlight
+"['']",One-way flight to Dubai,SearchFlight
+"['']",Is there a one way trip to Bordeaux?,SearchFlight
+"['']",Can I info for one-way trip from Dublin to Porto?,SearchFlight
+"['']",Want to go to Madrid,SearchFlight
+"['']","From Madrid to Vienna, one-way flight",SearchFlight
+"['']",Find me the price for one way trip from Hanover to Basel,SearchFlight
+"['']",Searching for one-way from Hanover to Toronto,SearchFlight
+"['']",Give me the price for a trip from Hanover to Basel,SearchFlight
+"['']",Give me the price for a flight ticket from Hanover to Basel,SearchFlight
+"['']",Give me the cheapest price for a flight from Hanover to Basel,SearchFlight
+"['']",Are there flights from London to Madrid?,SearchFlight
+"['']",Looking for one-way flight from London to Hong Kong,SearchFlight
+"['']",One-way flight to Edinburgh,SearchFlight
+"['']",Looking for one way flights between Toronto and London,SearchFlight
+"['']",Help search one way flight from London to Hong Kong,SearchFlight
+"['']",One way trip from Athens to Frankfurt.,SearchFlight
+"['']",What is the price of a round trip from Toronto to New York City if I leave on Feb 2 and coming back on Feb 5?,SearchFlight
+"['']",search for round trip to Hong Kong,SearchFlight
+"['']",i will need a roundtrip flight to San Jose,SearchFlight
+"['']",need a roundtrip ticket to Hawaii,SearchFlight
+"['']",I need the best price flight ticket to Hawaii on Feb 15,SearchFlight
+"['']",looking for round trip flight to London,SearchFlight
+"['']",i need a roundtrip info between vancouver and toronto,SearchFlight
+"['']",Round trip from Montreal to Vancouver?,SearchFlight
+"['']",Round-trip from Toronto to San Francisco,SearchFlight
+"['']",Price for roundtrip from Toronto to New York City if I leave on Feb 2 and coming back on Feb 5?,SearchFlight
+"['']",Round trip from Montreal to Vancouver?,SearchFlight
+"['']",Price for trip from San Jose to New York City leaving on Feb 2 and returning on Feb 5?,SearchFlight
+"['']",Flight from San Jose to New York City leaving on Feb 2 and returning on Feb 5?,SearchFlight
+"['']",Roundtrip flight between San Jose and New York City leaving on Feb 2 and returning on Feb 5?,SearchFlight
+"['']",I want a flight ticket from Toronto to Hong Kong leaving on Feb 2 and returning on Feb 25?,SearchFlight
+"['']",Round trip flight between Arizona and New Jersey leaving on May 6 and returning on May 10?,SearchFlight
+"['']",Round-trip from Toronto to San Francisco,SearchFlight
+"['']","Osaka to Toronto, leaving Dec 1 and returning on Jan 12",SearchFlight
+"['']","I have to fly from Osaka to Toronto, leaving on Dec 1",SearchFlight
+"['']",Shanghai to Toronto round trip,SearchFlight
+"['']",I want to know the roundtrip price between Turin and Moscow,SearchFlight
+"['']",What is the price for roundtrip going from Toronto to Shanghai?,SearchFlight
+"['']","roundtrip from San Francisco to Toronto, leaving Oct 24 returning on Nov 30",SearchFlight
+"['']",looking for round-trip info for Baltimore and San Francisco,SearchFlight
+"['']",I am looking a roundtrip price for flights between Hong Kong and Seoul,SearchFlight
+"['']",Find me roundtrip price between Toronto and Hong Kong between Jan 14 and Feb 28,SearchFlight
+"['']",Roundtrip tickets from Toronto to Vancourver,SearchFlight
+"['']",Looking for roundtrip from Ottawa to Detroit,SearchFlight
+"['']",Help with look for round trip prices from Paris to London.,SearchFlight
+"['']",Looking for roundtrip price from Paris to Monaco,SearchFlight
+"['']",Help me look for round trip flight from Detroit to Las Vegas,SearchFlight
+"['']",Want to know price of round trip from Ottawa to Calgary,SearchFlight
+"['']","No, that's too far for me. I need a flight that leaves from Birmingham.",SearchFlight
+"['']",What hotels are available in Boston on Feb 2?,SearchHotel
+"['']","I'd like to book a hotel in Atlantis on Saturday for 8 adults.",SearchHotel
+"['']","It is the Glorious Cloak hotel in St. Louis. It has a 3-star rating.",SearchHotel
+"['']","Searching for a cheap place to stay in Tokyo",SearchHotel
+"['']","Any suggestions for a great places to sleep for a night in Sofia",SearchHotel
+"['']","Advise me where I can book a hotel in Vienna",SearchHotel
+"['']",any hotels in Johannesburg?,SearchHotel
+"['']",looking for hotels in Houston,SearchHotel
+"['']",hotel bookings in Paris,SearchHotel
+"['']",hotel bookings in Vienna,SearchHotel
+"['']",Need hotels in Athens,SearchHotel
+"['']",hotels available in tokyo,SearchHotel
+"['']",hotel prices in Dubai,SearchHotel
+"['']",hotels in Los Angeles,SearchHotel
+"['']",what are your best suggestions for hotels in Los Angeles,SearchHotel
+"['']",I need a hotel in boston,SearchHotel
+"['']",find me some hotels in toronto,SearchHotel
+"['']",i need you to find me some hotels in tokyo,SearchHotel
+"['']",Want to see some available hotels in Vancouver on June 1,SearchHotel
+"['']",Could you tell me some hotels that are available in Dubai on Dec. 25?,SearchHotel
+"['']",What are some hotels in San Francisco that are available on Nov 26?,SearchHotel
+"['']",Tell me about hotels in Chicago that are available on July 13?,SearchHotel
+"['']",Hotels in Toronto?,SearchHotel
+"['']",Hotels available in Washington D.C.?,SearchHotel
+"['']",Available hotels in Calgary?,SearchHotel
+"['']",Want to know hotels in Las Vegas on Jan 14,SearchHotel
+"['']",Hotels in Montreal on March 4?,SearchHotel
+"['']",Can you tell me what hotels are available in Tokyo?,SearchHotel
+"['']",What hotels are available in San Francisco?,SearchHotel
+"['']",Available hotels in Baltimore?,SearchHotel
+"['']",Want to know some hotels in Paris?,SearchHotel
+"['']",Available hotels in Venice?,SearchHotel
+"['']",What hotels are there in Hong Kong?,SearchHotel
+"['']",Edmonton hotel available?,SearchHotel
+"['']",Hotels around Buffalo?,SearchHotel
+"['']",Give me some hotels in Dallas,SearchHotel
+"['']",Hotels around Atlanta?,SearchHotel
+"['']",List me some available hotels in Miami,SearchHotel
+"['']",Tell me some hotel prices in Memphis,SearchHotel
+"['']",Hotels in Memphis that are available,SearchHotel
+"['']",Hotels in Tokyo,SearchHotel
+"['']","Will be staying Vienna for a few days, what are some hotels that are available?",SearchHotel
+"['']","Going on a trip to Dubai, what are some hotels there?",SearchHotel
+"['']","Need to look for hotels in Osaka",SearchHotel
+"['']","Help me find a hotel in Paris, I will be there for a couple of days",SearchHotel
+"['']","I will be in Amsterdam for a couple of days, could you please reffer some hotels?",SearchHotel
+"['']","reffer some good hotels in Mexico?",SearchHotel
+"['']","I want to find the best hotel in LA. Any suggestions?",SearchHotel
+"['']","I'm on a trip in Barcelona and want to book hotel to stay tonight",SearchHotel
+"['']","Find me a good and cheap hotel in London",SearchHotel
+"['']","Find me a nice place to stay tommorow night in London",SearchHotel
+"['']","hotels available in Rome",SearchHotel
+"['']","what would be the best hotel to go with my wife in Rome",SearchHotel
+"['']","I wanna book a hotel in Berlin",SearchHotel
+"['']","Searching for a hotel in Berlin",SearchHotel

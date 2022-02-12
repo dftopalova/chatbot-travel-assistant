@@ -1,0 +1,101 @@
+body {
+    font-family: monospace;
+  }
+  h1 {
+    background-color: rgb(17, 157, 238);
+    display: inline-block;
+    font-size: 3em;
+    margin: 0;
+    padding: 14px;
+  }
+
+  #chatbox {
+    margin-left: 100px;
+    margin-right: auto;
+    margin-top: 30px;
+  }
+  #userInput {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 30px;
+  }
+
+  .talk-bubble {
+    margin: 40px;
+    display: inline-block;
+    position: relative;
+    width: 500px;
+    height: auto;
+    background-color: rgb(133, 228, 245);
+  }
+
+  .tri-right.border.left-in:before {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: -40px;
+    right: auto;
+    top: 30px;
+    bottom: auto;
+    border: 20px solid;
+    border-color: #666 #666 transparent transparent;
+  }
+
+  .round{
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+  }
+
+  .tri-right.border.right-in:before {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: auto;
+    right: -40px;
+    top: 30px;
+    bottom: auto;
+    border: 20px solid;
+    border-color: #666 transparent transparent #666;
+  }
+
+  .talktext{
+    padding: 1em;
+    text-align: left;
+    line-height: 1.5em;
+  }
+  .talktext p{
+    /* remove webkit p margins */
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+  }
+
+  .boxed {
+    margin-left: auto;
+    margin-right: auto;
+    width: 78%;
+    margin-top: 60px;
+    background-color: aliceblue;
+    border: 1px solid rgb(10, 10, 10);
+  }
+  .box {
+    border: 2px solid black;
+  }
+
+  input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+  }
+  
+  input[type=text]:focus {
+    border: 3px solid #555;
+  }
