@@ -16,8 +16,8 @@ from sklearn.metrics.pairwise import cosine_similarity
 from amadeus import Client, ResponseError
 
 amadeus = Client(
-    client_id='eHRYV1PF1qvHJuzECAZzriDP81UQZCGR',
-    client_secret='GjDAku7oGHBsODKG'
+    client_id='XXXXXXX',
+    client_secret='XXXXXX'
 )
 
 # Load traveling related intents corpus
