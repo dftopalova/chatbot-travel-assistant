@@ -1162,7 +1162,7 @@ AirportID,Name,City,Country,IATA,ICAO,Latitude,Longitude,Altitude,Timezone,DST,T
 1191,"Burgas Airport","Bourgas","Bulgaria","BOJ","LBBG",42.56959915161133,27.515199661254883,135,2,"E","Europe/Sofia","airport","OurAirports"
 1192,"Gorna Oryahovitsa Airport","Gorna Orechovica","Bulgaria","GOZ","LBGO",43.15140151977539,25.712900161743164,285,2,"E","Europe/Sofia","airport","OurAirports"
 1193,"Plovdiv International Airport","Plovdiv","Bulgaria","PDV","LBPD",42.067799,24.8508,597,2,"E","Europe/Sofia","airport","OurAirports"
-1194,"Sofia Airport","Sofia","Bulgaria","SOF","LBSF",42.696693420410156,23.411436080932617,1742,2,"E","Europe/Sofia","airport","OurAirports"
+1194,"Sofia International Airport","Sofia","Bulgaria","SOF","LBSF",42.696693420410156,23.411436080932617,1742,2,"E","Europe/Sofia","airport","OurAirports"
 1195,"Stara Zagora Airport","Stara Zagora","Bulgaria","SZR","LBSZ",42.3766667,25.655,558,2,"E","Europe/Sofia","airport","OurAirports"
 1196,"Varna Airport","Varna","Bulgaria","VAR","LBWN",43.232101,27.8251,230,2,"E","Europe/Sofia","airport","OurAirports"
 1197,"Larnaca International Airport","Larnaca","Cyprus","LCA","LCLK",34.875099182128906,33.624900817871094,8,2,"E","Asia/Nicosia","airport","OurAirports"

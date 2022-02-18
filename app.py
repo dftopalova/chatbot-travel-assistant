@@ -16,8 +16,8 @@ from sklearn.metrics.pairwise import cosine_similarity
 from amadeus import Client, ResponseError
 
 amadeus = Client(
-    client_id='XXXXXXX',
-    client_secret='XXXXXX'
+    client_id='eHRYV1PF1qvHJuzECAZzriDP81UQZCGR',
+    client_secret='GjDAku7oGHBsODKG'
 )
 
 # Load traveling related intents corpus
@@ -151,7 +151,7 @@ def flight_response(request):
     depart_date = request['depart_date']
 
     flight_resp = get_flight_tickets_response(departure_city_code, dest_city_code, depart_date)
-    if flight_resp.status_code != 200:
+    if(flight_resp == None or flight_resp.status_code != 200):
         resp = "Sorry, there was a problem fetching information about flight tickets price. :("
         return resp
 
@@ -194,12 +194,12 @@ def prepare_flight_request_data(doc):
 def extract_depart_dest_airport_codes(matches_df):
     departure_list = matches_df[matches_df['pattern']=='START_LOC'].loc[:,'location'].tolist()
     dest_list = matches_df[matches_df['pattern']=='END_LOC'].loc[:,'location'].tolist()
-    # between_dest_list = match_df[match_df['pattern']=='BETWEEN_LOC'].loc[:,'location'].tolist()
     
     departure_location = departure_list[-1]
     dest_loc = dest_list[-1]
     
     # Map location to an IATA airport code
+    locs = international_airports_df[international_airports_df['City'] == departure_location]['IATA']
     depart_airport_code = international_airports_df[international_airports_df['City'] == departure_location]['IATA'].iloc[0]
     dest_code = international_airports_df[international_airports_df['City'] == dest_loc]['IATA'].iloc[0]
     
@@ -246,11 +246,14 @@ def hotels_response(city_code):
         return resp
     
     hotels_list = hotel_resp.data
-    # TODO: process the response correctly
+    hotel_name = hotels_list[0]['hotel']['name']
+    hotel_rating = hotels_list[0]['hotel']['rating']
+    contact = hotels_list[0]['hotel']['contact']['phone']
+    hotel_price = hotels_list[0]['offers'][0]['price']['total'] + " " + hotels_list[0]['offers'][0]['price']['currency']
 
-    dest_city = international_airports_df[international_airports_df['IATA'] == request]['City'].iloc[0]
+    dest_city = international_airports_df[international_airports_df['IATA'] == city_code]['City'].iloc[0]
 
-    resp = f'We have found the cheapest hotels in {dest_city}: {hotels_list}.'
+    resp = f'Our top suggestion for a very good available hotel with nice price in {dest_city} is {hotel_name}. It has {hotel_rating}-stars rating and the price for one night is {hotel_price}. If you are interested you can book directly on the following phone: {contact}.'
     return resp 
 
 def prepare_hotels_request_data(doc):
